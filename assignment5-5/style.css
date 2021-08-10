@@ -1,0 +1,126 @@
+#body-header {
+    background-image: url(punch2prof810.jpg);
+    height: 60vh;
+    
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.nav {
+    padding-left: 0px;
+    text-align:center;
+}
+.nav li{
+    margin:10px 30px ;
+    display:inline-block;
+    
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    font: 1.5em sans-serif;
+  }
+ 
+  .navar li a:hover {
+    border-bottom: 1px solid white;
+    color: lightgray;
+  }
+ 
+  .text-center{
+    text-align: center;
+  
+  }
+  #my-name{
+    color:white;
+    margin:20px 30px;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 100px;
+  }
+  #about{
+    height:auto;
+width:100;
+    position: relative;
+  }
+  #image-frame{
+height: 12rem;
+width:12rem;
+margin: auto;
+margin-top: -10vh;
+
+  }
+  #image-frame img{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    border: solid 4px white;
+    box-shadow: 0px 0px 10px 7px rgba(230, 196, 196, 0.7);
+  }
+#about p {
+  width: 75%;
+  margin: auto;
+  margin-top: 70px;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  background-color: rgb(255 245 238 / 70%);
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+
+
+
+
+/* forth div */
+.f4div {
+  background-color:rgb(255 245 238 / 70%);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+ 
+}
+
+.f4list {
+  list-style-type: none;
+  border: 3px solid grey;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  border-color: black;
+}
+
+
+/* fifith div */
+
+.f5div {
+  background-color:rgb(255 245 238 / 70%);
+  padding: 30px;
+}
+
+.f5h {
+  font-family: 'MonteCarlo', cursive;
+}
+
+.f5list {
+  list-style-type: none;
+  border: 3px solid grey;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  border-color: black;
+}
+
+/* Extra */
+.all:hover {
+  box-shadow: 0px 0px 10px #00f5d4;
+}
+
+@media screen and (max-width:530px) {
+  .idiv{
+      margin-left:30px;
+  }
+
+} 
